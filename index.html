@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Domine&Nunito" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" href="assets/logo.png" type="image/png" sizes="16x16">
+    <title>Plan It!</title>
+    <style>
+        .contentContainer {
+            height: 700px;
+        }
+        .planBtn:hover, .aboutBtn:hover {
+        background-color: black;
+        transform: skewX(-20deg);
+        }
+        .sectionIntro {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .sectionIntroPara {
+            padding: 0 25px;
+            font-size: 19px;
+        }
+        .introTitle {
+            position: relative;
+            width: 400px;
+            text-align: center;
+            margin-top: 5px;
+            margin: auto;
+        }
+        .side-by-side {
+            position: relative;
+            float: left;
+            width: 33%;
+        }
+        .sectionSideBySide {
+            position: relative;
+            width: 99%;
+            left: 0.5%;
+            margin: auto;
+        }
+        .side-by-side img {
+            display: block;
+            margin: auto;
+            padding-bottom: 10px;
+        }
+        .titleSideBySide {
+            width: 100%;
+            height: 65px;
+        }
+        .sectionBtn {
+            position: relative;
+            display: block;
+            margin: auto;
+            bottom: 5px;
+            width: 60%;
+        }
+        @media screen and (max-width:860px) {
+            .contentContainer {
+                height: 1730px;
+            }
+            .side-by-side {
+                float: none;
+                width: 100%;
+            }
+            .sectionBtn {
+                width: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar" id="b2t">
+            <div class="logoBg"></div>
+            <div class="logoContainer"><a href="index.html"><img src="assets/logo.png" alt="Plan It! logo" class="logoSmall" width="48px" height="50px"></a></div>
+
+            <ul>
+            <li><div class="planBtn">
+                <a href="pages/plan.html"><img src="assets/planBtn.png" alt="Plan Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>
+            <li><div class="aboutBtn">
+                <a href="pages/about.html"><img src="assets/aboutBtn.png" alt="About Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>    
+            <li><div class="homeBtn">
+                <a href="index.html"><img src="assets/homeBtn.png" alt="Home Button" class="navBtn active" width="150px" height="67px"></a>
+            </div></li>
+            </ul>
+        </div>
+        <header>
+            <div class="headerImg"><img src="assets/headerImg.png" alt="Plan It Header Image" width="400px" height="100px"></div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <div class="contentContainer">
+            <article>
+                <section class="sectionIntro"><div class="introTitle"><h1 style="font-size:38px;">What are you looking for?</h1></div>
+                    <div class="sectionIntroPara">
+                    <p>A new city? Wanting to try out new activities with your friends or partner? Or maybe you just don’t know what Manchester has to offer (Don’t worry it’s a big city with so much to offer). That’s why we have made your job so much easier!</p>
+                    <p>Plan it! Is a website for solving all of the boring bars and events you have wasted your money on. We scout locations and deep dive on the internet to find you the best locations that you are going to love, whether that is with your friends, your partner or just by yourself. We aim to take the hassle out of having to plan events, we just...Plan it!</p>
+                    </div>
+                </section>
+                <div class="sectionSideBySide">
+                <section class="side-by-side">
+                    <div class="titleSideBySide"><h2>Places for Young Students</h2></div>
+                    <img src="assets/tigertiger.jpg" width="90%">
+                    <a href="pages/plan.html#directContent"><button class="sectionBtn">For Young Students</button></a>
+                </section>
+                <section class="side-by-side">
+                    <div class="titleSideBySide"><h2>Places for Mature Students</h2></div>
+                    <img src="assets/washhouse.jpg" width="90%">
+                    <a href="pages/plan.html#directContent"><button class="sectionBtn">For Mature Students</button></a>
+                </section>
+                <section class="side-by-side">
+                    <div class="titleSideBySide"><h2>Places for Couples</h2></div>
+                    <img src="assets/alchemist.jpg" width="90%">
+                    <a href="pages/plan.html#directContent"><button class="sectionBtn">For Couples</button></a>
+                </section>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+            <a href="#b2t"><i class="b2tArrowBtn"><button class="b2tCircleBtn"></i></button></a>
+    </footer>
+</body>
+</html>

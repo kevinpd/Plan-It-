@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Domine&Nunito" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png" sizes="64x64">
+    <title>Plan It!</title>
+    <style>
+        .contentContainer {
+            height: 100%;
+        }
+        .aboutBtn:hover, .homeBtn:hover {
+        background-color: black;
+        transform: skewX(-20deg);
+        }
+        .sectionIntro {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .sectionIntroPara {
+            padding: 0 25px;
+            font-size: 19px;
+        }
+        .introTitle {
+            position:relative;
+            width: 400px;
+            text-align: center;
+            margin-top: 5px;
+            margin: auto;
+        }
+        .side-by-side {
+            position: relative;
+            float: left;
+            width: 33%;
+        }
+        .sectionSideBySide {
+            position: relative;
+            width: 99%;
+            left: 0.5%;
+            margin: auto;
+        }
+        .side-by-side img {
+            display: block;
+            margin: auto;
+            padding-bottom: 10px;
+        }
+        .titleSideBySide {
+            width: 100%;
+            height: 25px;
+        }
+        .choice {
+            border-radius: 10px;
+            background-color: #d4d4d4;
+            border: solid 2px white;
+        }
+        .choice p {
+            margin: 0 10px;
+        }
+        .sectionBtn {
+            position: relative;
+            display: block;
+            width: 60%;
+            margin: 10px auto;
+        }
+        @media screen and (max-width:860px) {
+            .contentContainer {
+                height: 100%;
+            }
+            .side-by-side {
+                float: none;
+                width: 100%;
+            }
+            .sectionBtn {
+                width: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar" id="b2t">
+            <div class="logoBg"></div>
+            <div class="logoContainer"><a href="../index.html"><img src="../assets/logo.png" alt="Plan It! logo" class="logoSmall" width="48px" height="50px"></a></div>
+            <ul>
+            <li><div class="planBtn">
+                <a href="plan.html"><img src="../assets/planBtn.png" alt="Plan Button" class="navBtn active" width="150px" height="67px"></a>
+            </div></li>
+            <li><div class="aboutBtn">
+                <a href="about.html"><img src="../assets/aboutBtn.png" alt="About Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>    
+            <li><div class="homeBtn">
+                <a href="../index.html"><img src="../assets/homeBtn.png" alt="Home Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>
+            </ul>
+        </div>
+        <header>
+            <div class="headerImg"><img src="../assets/headerImg.png" alt="Plan It Header Image" width="400px" height="100px"></div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <div class="contentContainer" id="directContent">
+            <article>
+                    <section class="sectionIntro"><div class="introTitle"><h1 style="font-size:38px;">Find a new hang out palace with your friends</h1></div>
+                        <div class="sectionIntroPara">
+                        <p>Plan nights out with your friends using our website. We help you discover new places to eat, drink and party with your friends. You can choose the place that suits your needs and just to make it easier we have seperated our most favourite places by groups. We, just like you, find it hard to find worthwhile and worth-spending places where you can take friends or a girlfriend. So we can put you at ease and make things easier for you to just go outside and enjoy yourself to the fullest. Find your group, discover your place and have fun.</p>
+                        </div>
+                    </section>
+                <div class="sectionSideBySide">
+                    <div>
+                    <section class="side-by-side">
+                        <div class="titleSideBySide"><h2>Young Students</h2></div>
+                        <div class="choice">
+                            <h3 style="text-align:center;">TigerTiger</h3>
+                            <img src="../assets/tigertiger.jpg" width="90%">
+                            <p>One of Manchester’s biggest party clubs. They offer cocktail master classes, karaoke and an extensive food menu. Eight different rooms, each with a different theme and ambience, there’s something for everyone at Tiger Tiger. </p>
+                            <a href="subTigerTiger.html"><button class="sectionBtn">Choose this one</button></a>
+                        </div>
+                        <div class="choice">
+                            <h3 style="text-align:center;">Treetop Adventure Golf</h3>
+                            <img src="../assets/treetop.jpg" width="90%">
+                            <p>Treetop adventure Golf is the perfect place for students looking for something fun to do in the evenings, Located in the printworks Treetop adventure golf offers an 18 hole course where you and your friends can play while enjoying some twisted and tropical cocktails.</p>
+                            <a href="subTreetop.html"><button class="sectionBtn">Choose this one</button></a>
+                        </div>
+                    </section>
+                    </div>
+                    
+
+                    <section class="side-by-side">
+                        <div class="titleSideBySide"><h2>Mature Students</h2></div>
+                        <div class="choice">
+                            <h3 style="text-align:center;">The Wash House</h3>
+                            <img src="../assets/washhouse.jpg" width="90%">
+                            <p>This cocktail bar is happily affordable, this bar is within the northern quarter in the printworks. This bar does require booking. There is no door charge. The washhouse has excellent reviews, as seen on websites such as tripadvisor.</p>
+                            <a href="subWashhouse.html"><button class="sectionBtn">Choose this one</button></a>
+                        </div>
+                        <div class="choice">
+                            <h3 style="text-align:center;">The Lowry</h3>
+                            <img src="../assets/treetop.jpg" width="90%">
+                            <p>There is always something new and refreshing to see as the artwork,sculptures and photography are changed often making every time you go a new experience. It also has a lovely cafe as well to sit and enjoy a cup of tea and cake as well as being close to the tram station making it an easy destination.</p>
+                            <a href="subLowry.html"><button class="sectionBtn">Choose this one</button></a>
+                        </div>
+                    </section>
+
+
+                    <section class="side-by-side">
+                        <div class="titleSideBySide"><h2>Best Couples</h2></div>
+                        <div class="choice">
+                            <h3 style="text-align:center;">The Alchemist</h3>
+                            <img src="../assets/alchemist.jpg" width="90%">
+                            <p>In the heart of Spinningfields is the dark, theatrical Alchemist. The Alchemist offers a range of quirky and unique cocktails, served with a show worthy experience for those looking for a different way to dine and drink.</p>
+                            <a href="subAlchemist.html"><button class="sectionBtn">Choose this one</button></a>
+                        </div>
+                        <div class="choice">
+                            <h3 style="text-align:center;"> The Frog & Bucket Comedy Club</h3>
+                            <img src="../assets/treetop.jpg" width="90%">
+                            <p>Manchester’s original alternative comedy club is the place to go after a long day in University, Monday night are especially for upcoming comedians building their craft as well as introducing you to brand new people. The Frog and Bucket has also welcomed huge names such as Jason Manford and Sarah Millican. </p>
+                            <a href="subFrogBucket.html"><button class="sectionBtn">Choose this one</button></a>
+                        </div>
+                    </section>
+                    <section>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zmmSgC5moExmmqLHoJk8RVOKhkWwWxyy" width="99%" height="400" frameborder='0' scrolling='no' marginheight='0' marginwidth='0' ></iframe>
+                    </section>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+            <a href="#b2t"><i class="b2tArrowBtn"><button class="b2tCircleBtn"></i></button></a>
+    </footer>
+</body>
+</html>

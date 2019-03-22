@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Domine&Nunito" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png" sizes="64x64">
+    <title>Plan It!</title>
+    <style>
+        .contentContainer {
+            height: 100%;
+        }
+        .planBtn:hover, .homeBtn:hover, .aboutBtn:hover {
+        background-color: black;
+        transform: skewX(-20deg);
+        }
+        .sectionIntro {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .introTitle {
+            position:relative;
+            width: 400px;
+            text-align: center;
+            margin-top: 5px;
+            margin: auto;
+        }
+        .sectionInfo img {
+            float: right;
+        }
+        .sectionInfo {
+            padding: 0 10px;
+        }
+        .openingTimes{
+            font-size: 19px;
+        }
+        .buttonCenter {
+            width: 250px;
+            height: 40px;
+            margin: 5px auto;
+        }
+        @media screen and (max-width:860px) {
+            .contentContainer {
+                height: 100%;
+            }
+            .sectionInfo img {
+                width: 200px;
+            }
+            .openingTimes {
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar" id="b2t">
+            <div class="logoBg"></div>
+            <div class="logoContainer"><a href="../index.html"><img src="../assets/logo.png" alt="Plan It! logo" class="logoSmall" width="48px" height="50px"></a></div>
+            <ul>
+            <li><div class="planBtn">
+                <a href="plan.html"><img src="../assets/planBtn.png" alt="Plan Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>
+            <li><div class="aboutBtn">
+                <a href="about.html"><img src="../assets/aboutBtn.png" alt="About Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>    
+            <li><div class="homeBtn">
+                <a href="../index.html"><img src="../assets/homeBtn.png" alt="Home Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>
+            </ul>
+        </div>
+        <header>
+            <div class="headerImg"><img src="../assets/headerImg.png" alt="Plan It Header Image" width="400px" height="100px"></div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <div class="contentContainer">
+            <article>
+                <section class="sectionIntro"><div class="introTitle"><h1 style="font-size:38px;">The Alchemist</h1></div>
+                </section>
+                <section class="sectionInfo">
+                    <p><img src="../assets/alchemist2.jpg" alt="The Alchemist Entrance" width="400px">Located in the heart of Spinningfields is the dark, theatrical Alchemist. The Alchemist offers a range of quirky and unique cocktails, served with a show worthy experience for people looking for a different way to dine and drink.</p>
+                    <p>This wacky and wonderful place has a real modern and expensive feel to it. However the this place is reasonably affordable for those couples who are wanting to explore their tastes and find new great wacky cocktails. They have great vibes and the decoration fits their image to give you a sense of purity and great mood lighting.</p>
+
+                    <table class="openingTimes">
+                        <tr><th colspan="2" style="font-size:26px;"><strong>Opening Hours:</strong></th></tr>
+                        <tr><td>Monday</td>     <td>10am-12am</td></tr>
+                        <tr><td>Tuesday</td>    <td>10am-12am</td></tr>
+                        <tr><td>Wednesday</td>  <td>10am-12am</td></tr>
+                        <tr><td>Thursday</td>   <td>10am-12am</td></tr>
+                        <tr><td>Friday</td>     <td>10am-1am</td></tr>
+                        <tr><td>Saturday</td>   <td>10am-2am</td></tr>
+                        <tr><td>Sunday</td>     <td>10am-11pm</td></tr>
+                    </table>
+                </section>
+                <section class="sectionInfo">
+                    <iframe width='100%' height='400px' id='mapcanvas' src='https://maps.google.com/maps?q=The%20Alchemist,%203%20Hardman%20St,%20Manchester%20M3%203HF&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' style="margin-top:20px;"></iframe>
+                </section>
+                <section class="sectionInfo">
+                    <div class="buttonCenter">
+                        <a href="https://thealchemist.uk.com/"><button style="float:left;margin-right:5px;">Check out their website</button></a>
+                        <a href="plan.html#directContent"><button>Other places</button></a>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+    <footer>
+            <a href="#b2t"><i class="b2tArrowBtn"><button class="b2tCircleBtn"></i></button></a>
+    </footer>
+</body>
+</html>

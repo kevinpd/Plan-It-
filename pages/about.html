@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Domine&Nunito" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png" sizes="64x64">
+    <title>Plan It!</title>
+    <style>
+        .contentContainer {
+            height: 1370px;
+        }
+        .planBtn:hover, .homeBtn:hover {
+        background-color: black;
+        transform: skewX(-20deg);
+        }
+        .sectionIntro {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .sectionIntroPara {
+            padding: 0 25px;
+            font-size: 19px;
+        }
+        .introTitle {
+            position: relative;
+            width: 400px;
+            text-align: center;
+            margin-top: 5px;
+            margin: auto;
+        }
+        .staff {
+            font-size: 19px;
+            margin: auto;
+        }
+        .staff td {
+            padding: 2px 5px;
+        }
+        .side-by-side {
+            position: relative;
+            float: left;
+            width: 47%;
+            background-color: #d4d4d4;
+            border-radius: 10px;
+            border: solid 5px white;
+            padding: 0 5px;
+            line-height: 18px;
+        }
+        @media screen and (max-width:860px) {
+            .contentContainer {
+                height: 1400px;
+            }
+            .side-by-side {
+                float: none;
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar" id="b2t">
+            <div class="logoBg"></div>
+            <div class="logoContainer"><a href="../index.html"><img src="../assets/logo.png" alt="Plan It! logo" class="logoSmall" width="48px" height="50px"></a></div>
+            <ul>
+            <li><div class="planBtn">
+                <a href="plan.html"><img src="../assets/planBtn.png" alt="Plan Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>
+            <li><div class="aboutBtn">
+                <a href="about.html"><img src="../assets/aboutBtn.png" alt="About Button" class="navBtn active" width="150px" height="67px"></a>
+            </div></li>    
+            <li><div class="homeBtn">
+                <a href="../index.html"><img src="../assets/homeBtn.png" alt="Home Button" class="navBtn" width="150px" height="67px"></a>
+            </div></li>
+            </ul>
+        </div>
+        <header>
+            <div class="headerImg"><img src="../assets/headerImg.png" alt="Plan It Header Image" width="400px" height="100px"></div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <div class="contentContainer">
+            <article>
+                    <section class="sectionIntro"><div class="introTitle"><h1 style="font-size:38px;">Who are we?</h1></div>
+                        <div class="sectionIntroPara">
+                        <p>Plan it! Was created by 8 university students who came together and realised they had one thing in common, wanting to be money savvy.<br>When planning events and activities to do you want to be sure that you aren’t wasting your  time or money. Which is exactly how we felt. The 8 of us wanted to develop a site where people are able to do a quick scroll through audience targeted sections to find pubs, clubs and events that will be worth your money.</p>
+                        <table class="staff">
+                            <tr><th colspan="2" style="font-size:26px;"><strong>Plan It! Ran by:</strong></th></tr>
+                            <tr><td>Jamie Moore</td>    <td>Projects Manager</td></tr>
+                            <tr><td>Eve Maher</td>      <td>Deputy Projects Manager</td></tr>
+                            <tr><td>Kiera Beirne</td>   <td>Graphics Designer</td></tr>
+                            <tr><td>Zac Powell</td>     <td>Graphics &amp; Website Designer</td></tr>
+                            <tr><td>Kevin Dyson</td>    <td>Website Developer</td></tr>
+                            <tr><td>Alex Mason</td>     <td>Graphics Designer & Photographer</td></tr>
+                            <tr><td>Amy Pickles</td>    <td>Photographer &amp; Content Creator</td></tr>
+                            <tr><td>Ty Richardson</td>  <td>Videographer &amp; Content Creator</td></tr>
+                        </table>
+                        <video width="100%" controls>
+                            <source src="../assets/aboutVid.mp4" type="video/mp4">
+                            Your browser unfortunately does not support this video.
+                        </video>
+                        </div>
+                        <div class="introTitle"><h1 style="font-size:38px;">Contact Us</h1></div>
+                        <div class="side-by-side">
+                            <h2>Contact Details:</h2>
+                            <p><strong>Manager:</strong> Jamie Moore</p>
+                            <p><strong>Telephone: </strong> 0161 3547523</p>
+                            <p><strong>Email: </strong> contact@planit-manchester.com</p>
+                            <p><strong>Contact Hours: </strong> 9:00am-5:00pm</p>
+                        </div>
+                        <div class="side-by-side">
+                            <h2>Where we are?</h2>
+                            <p style="line-height:20px;"> <strong>Plan It! - Manchester</strong> <br>
+                            All Saints Building <br>
+                            Oxford Road <br>
+                            Manchester <br>
+                            M15 6BH <br>
+                            Greater Manchester</p>
+                        </div>
+                    </section>
+            </article>
+        </div>
+    </div>
+    <footer>
+            <a href="#b2t"><i class="b2tArrowBtn"><button class="b2tCircleBtn"></i></button></a>
+    </footer>
+</body>
+</html>
